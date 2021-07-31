@@ -1,0 +1,46 @@
+.colorPicker {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    list-style-type: none;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 3px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+
+    transition: opacity 1s ease-in-out;
+}
+
+.colorPicker li {
+    margin: 2px
+}
+
+.colorPicker li div {
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.cyan {
+    background-color: cyan;
+}
